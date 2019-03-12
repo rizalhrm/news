@@ -1,0 +1,58 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.panel-default > .panel-heading {
+color: #ffffff;
+font-weight: bold;
+background-color: #bb1212;
+border-color: #bb1212;
+}
+
+.panel {
+    border-radius: 0px;
+}
+
+.panel-default {
+    border-color:$body-bg;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+nav.admin-menu {
+    background: $brand-primary;
+}
+
+nav.admin-menu ul {
+    padding: 0px;
+    list-style: none;
+}
+
+nav.admin-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+nav.admin-menu ul li a:hover,
+nav.admin-menu ul li a.active {
+    background: #a52d2d;
+}
+
+.row-search{
+    margin-top: 20px;
+}
